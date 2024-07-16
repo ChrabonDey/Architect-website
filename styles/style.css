@@ -464,7 +464,13 @@ font-size: 1rem;
         flex-direction: column;
         
     }
-
+    .team-img-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:20px;
+        box-shadow: 5px 5px 5px 5px orange;
+        filter:drop-shadow(20%);
+    }
     .our-features{
         margin-top:34px;
         margin-left:50px auto;
@@ -518,21 +524,21 @@ font-size: 1rem;
    
     
     .image-box{
-    margin-left:50px;
+    margin-left:10px;
     
     }
     .image-box img{
-        width:100%;
+       width:100%
     }
     .image-box button{
-    margin-left:-90px;
-    margin-top:-200px
+   margin: -59px auto;
+    
     
     }
     .sponsor-img{
         margin-top: 50px;
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
         filter: grayscale(100%);
         margin-left:100px;
         gap:25px;
